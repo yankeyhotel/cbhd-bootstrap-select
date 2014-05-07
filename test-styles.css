@@ -1,12 +1,8 @@
 
-body {
-	padding-top: 60px;
-}
+body { padding-top: 60px; }
+label { display: block; }
 
-label {
-	display: block;
-}
+.btn-group {}
+.btn-group .btn { }
+.btn-group .dropdpwn-menu li.active {}
 
-.btn-group {
-	/*display: block;*/
-}

@@ -14,9 +14,6 @@
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="/test-styles.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
-
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -44,7 +41,7 @@
 
       <div class="starter-template">
         <h1>Bootstrap Select</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        <p class="lead">A simple plugin that creates a Bootstrap button dropdown from a select form element. The new button dropdown will also update the select menu so it can be used in a typical form.</p>
         <form>
 	        <div class="form-group">
 	        	<label>Typical Select Menu</label>
@@ -82,7 +79,11 @@
     <script type="text/javascript" src="/jquery.cbhd-bootstrap-select.js"></script>
     <script>
 		$(document).ready(function(){
-			$(".bootstrap-select").cbhd_bootstrap_select();
+			$(".bootstrap-select").cbhd_bootstrap_select({ 
+													icon: "glyphicon",
+													custom_icon: '<i class="fa fa-chevron-down"></i>',
+													use_first_option_as_title: true
+												});
 		});
     </script>
   </body>
