@@ -1,0 +1,23 @@
+{
+    "name": "CBHD Boostrap Select",
+    "version": "0.0.1",
+    "main": "dist/jquery.cbhd-bootstrap-select.min.js"
+    "ignore": [
+        "source",
+        "spec",
+        ".bowerrc",
+        ".gitignore",
+        ".jshintignore",
+        ".jshintrc",
+        "bower.json",
+        "gruntfile.js",
+        "package.json",
+        "README.md",
+        "test.html",
+        "text-styles.css"
+    ],
+    "dependencies": {
+        "jquery": ">=1.10.2",
+        "bootstrap": ">=3.1"
+    },
+}
