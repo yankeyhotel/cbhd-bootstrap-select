@@ -1,6 +1,6 @@
 {
     "name": "CBHD-Boostrap-Select",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "main": "dist/jquery.cbhd-bootstrap-select.min.js",
     "ignore": [
         "source",
