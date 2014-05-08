@@ -1,11 +1,14 @@
 # CBHD Bootstrap Select
 
-A simple plugin that creates a [Bootstrap](http://getbootstrap.com) button dropdown from a select form element. The new button dropdown will also update the select each time a new selection is made so that the menu can be used in a typical form. 
+A simple plugin that creates a [Bootstrap](http://getbootstrap.com) [button dropdown](http://getbootstrap.com/components/#btn-dropdowns) from a select form element. The new button dropdown will also update the select each time a new selection is made so that the menu can be used in a typical form. 
 
+## Installation
+
+This plugin requires that you be using Bootstrap as well as jQuery. Just add the jquery.cbhd-bootstrap-select.min.js file to your html after jQuery and Bootstrap .js files. You must use the Bootstrap [dropdown plugin](http://getbootstrap.com/javascript/#dropdowns) for the button dropdown to work.
 
 ## Documentation
 
-Just use a typical Bootstrap formatted [select tag](http://getbootstrap.com/css/#forms). And add a class to target the select menu.
+Use a typical Bootstrap formatted [select tag](http://getbootstrap.com/css/#forms). And add a class to target the select menu.
 
 ```html
 <select class="form-control" class="bootstrap-select">
